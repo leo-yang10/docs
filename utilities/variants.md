@@ -125,9 +125,9 @@ For example, you could then use `print:hidden` to hide elements when styling for
 
 ### Pseudo Elements
 
-| Variant | Rule | Description |
-| :------ | :--- | :---------- |
-| before | `.{utility}::before { ... }` | Targets the before pseudo-element. |
+| Variant | Rule | Description | example |
+| :------ | :--- | :---------- | :--- |
+| before | `.{utility}::before { ... }` | Targets the before pseudo-element. | div class="before:content" |
 | after | `.{utility}::after { ... }` | Targets the after pseudo-element. |
 | first-letter | `.{utility}::first-letter { ... }` | Targets the first-letter pseudo-element. |
 | first-line | `.{utility}::first-line { ... }` | Targets the first-line pseudo-element. |
